@@ -7,8 +7,8 @@
 
 ### Hardware Requirements
 - **CPU**: 4 cores (minimum 2)
-- **RAM**: 8 GB (minimum 2 GB)
-- **Disk**: 100 GB SSD
+- **RAM**: 12 GB (minimum 2 GB)
+- **Disk**: 50 GB SSD
 - **Network**: Static IP address
 
 ### Software
@@ -27,7 +27,7 @@
 4. System: Default
 5. Disks: 100 GB, SSD emulation enabled
 6. CPU: 4 cores (type: host)
-7. Memory: 8192 MB
+7. Memory: 11192 MB
 8. Network: Bridge (vmbr0)
 9. Start VM and install Ubuntu
 ```
@@ -464,7 +464,7 @@ kubectl get ipaddresspool -n metallb-system
 argocd app list
 ```
 
-### 7.2 Create Verification Script
+### 7.2 Create Verification Script-
 
 ```bash
 # Create status check script
